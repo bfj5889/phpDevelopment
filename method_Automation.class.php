@@ -19,7 +19,7 @@ echo $e->add(12, 4);
                 $variableName = $variableArray[i];
                 runkit_method_add($className, $methodName, '$variableName, $newValue', return $variableArray[i]=$newValue, RUNKIT_ACC_PUBLIC);
         }
-        if (callGetter){
+        if ($callGetter){
             method_Getter($className, $variableArray);
         }else{
             echo "getter was not called";
