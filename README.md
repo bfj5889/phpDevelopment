@@ -1,2 +1,2 @@
 # phpDevelopment
-IN-PROGRESS: Creating dynamic accessors and mutators doing runtime
+IN-PROGRESS: Creating dynamic accessors and mutators durng runtime
